@@ -1,0 +1,102 @@
+{
+  "id": "tg-taff",
+  "title": "Wrath & Glory - Threat Assessment: Flora & Fauna",
+  "version": "0.5.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+   "description": "Through the expanse of the Imperium, death can come as easily in the form of an Ork Choppa as a it can through the savage mandibles of a Sump-Spider. Entire worlds teem with hostile organisms, from the carnivorous vegetation and Megafauna of Nethreus to toxic fungal spores of an Underhive. This homebrew supplement aims to lay out interesting encounters to support a GM fleshing out the world for their players, and will expand on the Battlezone rules from Threat Assessment Xenos as well as provide a broad range of non-factional threats for players to face. This Foundry Module also includes a random Fauna Generator Macro, heavily based around the Rogue Trader tables found in The Koronus Bestiary supplement. GW, Games Workshop, Citadel, Black Library, Forge World, Warhammer, Warhammer 40,000, the ‘Aquila’ Double-headed Eagle logo, Space Marine, 40K, 40,000, Necromunda, Space Hulk, Battlefleet Gothic, Inquisitor, Epic, Gorkamorka, and all associated logos, illustrations, images, names, creatures, races, vehicles, locations, weapons, characters, and the distinctive likenesses thereof, are either ® or ™, and/or © Games Workshop Limited, variably registered around the world. All Rights Reserved. Used Without Permission",
+  "authors": [
+    {
+      "name": "Tom Gidman",
+      "url": "https://github.com/Gidders91/",
+      "discord": "Gidders",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items (Threat Assessment: Flora & Fauna)",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "wrath-and-glory",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables (Threat Assessment: Flora & Fauna)",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "system": "wrath-and-glory",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macro",
+      "label": "Macros (Threat Assessment: Flora & Fauna)",
+      "path": "packs/macro",
+      "type": "Macro",
+      "system": "wrath-and-glory",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {
+    "canUpload": true,
+    "initializationPacks": [
+      "tg-taff.items",
+      "tg-faff.tables",
+      "tg-taff.macro"
+    ],
+    "folder": {
+      "name": "Threat Assessment: Flora & Fauna",
+      "sorting": "m",
+      "color": "#005c12"
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Threat Assessment: Flora & Fauna",
+      "sorting": "m",
+      "color": "#005c12",
+      "packs": [
+        "items",
+        "tables",
+        "macro"
+      ],
+      "folders": []
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "wrath-and-glory",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "wng-core",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "warhammer-lib",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+ "manifest": "https://github.com/Gidders91/WnG-Threat-Assessment-Flora-Fauna/releases/download/0.5.0/module.json",
+  "download": "https://github.com/Gidders91/WnG-Threat-Assessment-Flora-Fauna/releases/download/0.5.0/tg-taff.zip"
+}
